@@ -115,6 +115,6 @@ puts my_sum(1,2,3,4,5,6,7)
 #weight = gets.chomp()
 #puts "You're #{age} old, #{height} tall and #{weight} heavy."
 
-rolls = 100.times.collect { rand(6)+1 }
+rolls = 10.times.collect { rand(6)+1 }
 puts rolls
 
